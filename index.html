@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet">
     
     <title>Reproductor</title>
 </head>
@@ -25,12 +26,17 @@
                         <div class="col-2 text-center">
                             <button onclick="Busqueda()" type="button" class="btn btn-dark">Buscar</button>
                         </div>
+                        <div id="playPause" class="col-6 text-center">
+                            <button onclick="play()">Play</button>
+                            <button onclick="pause()">Pause</button>
+                    </div>
+                      
                     </div>
                 </div>
             
         </header>
         <main>
-            <div class="container">
+            <div class="container-caratula">
                 <div class="row">
                     <div class="col-7">
                         <div class="row">
@@ -38,15 +44,12 @@
                         </div>
 
                         
-
-                        <div class="row">
-                                <button onclick="play()">Play</button>
-                                <button onclick="pause()">Pause</button>
+                        <div class="col-auto">
+                            <div id="listado"></div>
                         </div>
+                       
                     </div>
-                    <div class="col-auto">
-                        <div id="listado"></div>
-                    </div>
+              
                 </div>
             </div>
         </main>

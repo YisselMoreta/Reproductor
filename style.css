@@ -1,20 +1,42 @@
-#caratula {
-    background-color: aquamarine;
-    height: 50vh;
-    width: 100vh;
-    margin-top: 5vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#caratula img {
-    height: 50vh;
-    width: 100vh;
+body {
+    display: flex;
+    flex-direction: row;
+
+    
+    font-family: 'Fascinate Inline', cursive;
+    background-image: linear-gradient(to bottom, #c31233, #94192b, #661922, #3c1518, #140a0a);
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    flex-wrap: wrap;
 }
 
-#listado {
-    margin-top: 2vw;
-    border: 1px solid black;
-    background-color: black;
-
+.container-caratula {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 30px;
+    background-image: url(./img/simon-noh-0rmby-3OTeI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    margin: 6vh;
 }
-#listado img {
-    border: 2px solid white;
+#playPause{
+    margin-top: 1em;
+}
+#listado{
+   align-self: flex-start; 
 }
