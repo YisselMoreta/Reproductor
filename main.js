@@ -69,3 +69,7 @@ let pause=()=>{
 let play=()=>{
     player.play();
 }
+
+
+
+
