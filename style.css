@@ -1,0 +1,20 @@
+#caratula {
+    background-color: aquamarine;
+    height: 50vh;
+    width: 100vh;
+    margin-top: 5vh;
+}
+#caratula img {
+    height: 50vh;
+    width: 100vh;
+}
+
+#listado {
+    margin-top: 2vw;
+    border: 1px solid black;
+    background-color: black;
+
+}
+#listado img {
+    border: 2px solid white;
+}
